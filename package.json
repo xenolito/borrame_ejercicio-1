@@ -1,0 +1,18 @@
+{
+  "name": "gitlearning",
+  "version": "1.0.0",
+  "description": "Learning Git",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "learning"
+  ],
+  "author": "Oscar Rey Tajes",
+  "license": "MIT",
+  "dependencies": {
+    "console-signature": "^1.5.0"
+  }
+}
