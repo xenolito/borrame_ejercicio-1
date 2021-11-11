@@ -81,3 +81,7 @@ button:hover {
     background-color: #fff;
     color: #343434;
 }
+
+img {
+    max-width: 100%;
+}
