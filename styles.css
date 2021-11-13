@@ -64,10 +64,12 @@ footer {
 
 .cta {
     background-color: yellowgreen;
-    padding: 2rem;
+    padding: 4rem;
     border-radius: 10px;
     border: 2px solid rgb(136, 189, 29);
     color: #000;
+    margin: 3rem auto;
+
 }
 
 .darkmode .cta {
@@ -99,4 +101,12 @@ button:hover {
 img {
     max-width: 100%;
     padding-bottom: 2rem;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+h2 + p {
+    margin-top: 0;
 }
