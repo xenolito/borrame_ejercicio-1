@@ -8,7 +8,7 @@ html, body {
 body {
     background: #fff;
     color: #343434;
-    font-size: 1.6rem;
+    font-size: clamp(1rem,calc(1rem + .6vw), 2rem);
     line-height: 1.6;
 }
 
