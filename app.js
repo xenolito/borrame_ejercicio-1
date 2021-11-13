@@ -31,8 +31,7 @@ const setDarkModeSwitcher = () => {
             toggleDarkMode()
         })
     })
-
-    console.log('DARKMODE', getdarkMode());
+    // console.log('DARKMODE', getdarkMode());
 }
 
 
