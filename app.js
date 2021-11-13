@@ -17,11 +17,19 @@ const getdarkMode = () => {
 const toggleDarkMode = () => {
     localStorage.setItem('darkmode',JSON.stringify(!getdarkMode()))
     setDarkModeCssClass()
+    setDarkModeSwitcherText()
     // getdarkMode() ? document.querySelector('body').classList.add('darkmode') : document.querySelector('body').classList.remove('darkmode')
 }
 
 const setDarkModeCssClass = () => {
     getdarkMode() ? document.querySelector('body').classList.add('darkmode') : document.querySelector('body').classList.remove('darkmode')
+}
+
+const setDarkModeSwitcherText = () => {
+    document.querySelectorAll('.darkModeToggle').forEach((el)=>{
+        el.innerHTML = getdarkMode() ? 'LightMode' : 'DarkMode'
+        // console.log('button text',el.innerHTML);
+    })
 }
 
 const setDarkModeSwitcher = () => {
@@ -38,3 +46,4 @@ const setDarkModeSwitcher = () => {
 setDarkModeSwitcher()
 //auto set darkmode on load
 setDarkModeCssClass()
+setDarkModeSwitcherText()
