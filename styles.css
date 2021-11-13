@@ -69,6 +69,10 @@ footer {
     border: 2px solid rgb(136, 189, 29);
 }
 
+.darkmode .cta {
+    color: rgb(40, 59, 0);
+}
+
 .cta heading {
     font-size: 1.8em;
     font-weight: bold;
