@@ -12,9 +12,13 @@ body {
     line-height: 1.6;
 }
 
+body.darkmode {
+    background: #000;
+    color: #fff;
+}
 
 header {
-    background-color: mediumturquoise;
+    background-color: #505050;
     color: #343434;
     font-size: 1.2rem;
     display: flex;
