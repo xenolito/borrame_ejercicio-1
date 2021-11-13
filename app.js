@@ -27,7 +27,7 @@ const setDarkModeCssClass = () => {
 
 const setDarkModeSwitcherText = () => {
     document.querySelectorAll('.darkModeToggle').forEach((el)=>{
-        el.innerHTML = getdarkMode() ? 'To LightMode' : 'To DarkMode'
+        el.innerHTML = getdarkMode() ? 'LightMode' : 'DarkMode'
         // console.log('button text',el.innerHTML);
     })
 }
