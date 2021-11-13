@@ -67,12 +67,16 @@ footer {
     padding: 2rem;
     border-radius: 10px;
     border: 2px solid rgb(136, 189, 29);
+    color: #000;
+}
+
+.darkmode .cta {
+    color: rgb(40, 59, 0);
 }
 
 .cta heading {
     font-size: 1.8em;
     font-weight: bold;
-
 }
 
 button {
