@@ -18,7 +18,7 @@ body.darkmode {
 }
 
 header {
-    background-color: greenyellow;
+    background-color: #303030;
     color: #343434;
     font-size: 1.2rem;
     display: flex;
@@ -26,6 +26,10 @@ header {
     justify-content: center;
     padding: .5rem;
 
+}
+
+.darkmode header {
+    background-color: #000;
 }
 
 header a {
@@ -60,6 +64,10 @@ footer {
     padding: .5rem 1rem;
     position: fixed;
     bottom: 0;
+}
+
+.darkmode footer {
+    background-color: #000;
 }
 
 .cta {
