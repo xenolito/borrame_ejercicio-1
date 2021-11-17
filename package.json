@@ -13,6 +13,6 @@
   "author": "Oscar Rey Tajes",
   "license": "MIT",
   "dependencies": {
-    "console-signature": "^1.5.0"
+    "@xenolito/console-signature": "^1.9.8"
   }
 }

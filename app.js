@@ -1,5 +1,6 @@
-import signature from './modules/signature.js'
-// signature()
+// import signature from './modules/signature.js'
+import signature from "./node_modules/@xenolito/console-signature/index.js"
+signature()
 
 let darkMode = JSON.parse(localStorage.getItem('darkmode')) || false
 
