@@ -1,6 +1,8 @@
 # Ejercicio 1
+This is a **demo repo** for teaching purposes.
+This repo does nothing really.
 
-Inline `code`
+
 
 ```js
 const pepe = 'macha';
