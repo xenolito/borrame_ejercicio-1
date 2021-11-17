@@ -24,13 +24,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: .5rem;
+    padding: 1rem 0;
 
 }
 
 .darkmode header {
     background-color: #000;
-    padding: 1rem 0;
 }
 
 header a {
