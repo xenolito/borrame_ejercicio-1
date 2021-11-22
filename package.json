@@ -7,6 +7,10 @@
     "serve": "vite preview"
   },
   "devDependencies": {
+    "sass": "^1.43.4",
     "vite": "^2.6.4"
+  },
+  "dependencies": {
+    "@xenolito/console-signature": "^1.9.8"
   }
 }
