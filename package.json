@@ -1,17 +1,15 @@
 {
-  "name": "gitlearning",
-  "version": "1.0.0",
-  "description": "Learning Git",
-  "main": "app.js",
+  "name": "ejercicio-2",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
-  "keywords": [
-    "git",
-    "learning"
-  ],
-  "author": "Oscar Rey Tajes",
-  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.43.4",
+    "vite": "^2.6.4"
+  },
   "dependencies": {
     "@xenolito/console-signature": "^1.9.8"
   }
