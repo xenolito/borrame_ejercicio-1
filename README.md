@@ -2,7 +2,7 @@
 This is a **demo repo** for teaching purposes.
 This repo does nothing really.
 
-
+## Código a tener en cuenta
 
 ```js
 const pepe = 'macha';
@@ -18,3 +18,6 @@ body {
     color: coral;
 }
 ```
+
+## Cómo se hace
+Pues atreviéndote a conocer/saber.
